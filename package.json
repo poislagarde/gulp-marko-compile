@@ -1,0 +1,30 @@
+{
+  "name": "gulp-marko-compile",
+  "version": "0.0.1",
+  "description": "Gulp plugin for compiling Marko templates",
+  "main": "index.js",
+  "engines": {
+    "node": "~4.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: we don't have tests yet\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poislagarde/gulp-marko-compile.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "marko",
+    "compile"
+  ],
+  "author": {
+    "name": "Pablo Ois Lagarde"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "marko": "^2.7.27",
+    "through2": "^2.0.0"
+  }
+}
