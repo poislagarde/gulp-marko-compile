@@ -4,7 +4,7 @@
   "description": "Gulp plugin for compiling Marko templates",
   "main": "index.js",
   "engines": {
-    "node": "~4.2.1"
+    "node": ">=4.2.1"
   },
   "scripts": {
     "test": "echo \"Error: we don't have tests yet\" && exit 1"
