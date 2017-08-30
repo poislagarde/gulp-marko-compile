@@ -1,3 +1,16 @@
+# IMPORTANT
+
+**There's no point in using this plugin anymore.**
+
+Marko has grown a lot since I first published this gulp plugin, and now they support both run time compilation (via a require extension) and build time compilation (via a CLI). See here for more info: http://markojs.com/docs/installing/#on-the-server.
+
+If you want to pre compile your marko files in a gulp build, you could just install `marko-cli` as a dev dependency and do this (with gulp 4):
+
+```javascript
+const { spawn } = require('child_process')
+gulp.task('marko', () => spawn('marko', ['compile', 'hello.marko'], { stdio: 'inherit' }))
+```
+
 # gulp-marko-compile
 
 [![npm](https://nodei.co/npm/gulp-marko-compile.svg?downloads=true)](https://nodei.co/npm/gulp-marko-compile/)
